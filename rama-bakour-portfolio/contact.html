@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Kontakta Rama Albakour via e-post, GitHub eller kontaktformulär."
+    >
+
+    <title>Kontakt | Rama Albakour</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <nav class="navbar" aria-label="Huvudnavigation">
+
+            <a href="index.html" class="logo">
+                Rama Albakour
+            </a>
+
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">Start</a>
+                </li>
+
+                <li>
+                    <a href="about.html">Om mig</a>
+                </li>
+
+                <li>
+                    <a href="projects.html">Projekt</a>
+                </li>
+
+                <li>
+                    <a href="contact.html" aria-current="page">
+                        Kontakt
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="contact-section">
+
+            <div class="contact-intro">
+
+                <p class="eyebrow">Kontakta mig</p>
+
+                <h1>Skicka ett meddelande</h1>
+
+                <p>
+                    Har du frågor om mina projekt eller vill du komma i
+                    kontakt med mig? Du är varmt välkommen att höra av dig.
+                </p>
+
+                <p>
+                    <strong>Namn:</strong>
+                    Rama Albakour
+                </p>
+
+                <p>
+                    <strong>E-post:</strong>
+
+                    <a href="mailto:rama.bakour96@gmail.com">
+                        rama.bakour96@gmail.com
+                    </a>
+                </p>
+
+                <p>
+                    <strong>GitHub:</strong>
+
+                    <a
+                        href="https://github.com/ramabakour96-del/rama-webb"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        github.com/ramabakour96-del/rama-webb
+                    </a>
+                </p>
+
+            </div>
+
+            <form
+                class="contact-form"
+                action="https://formspree.io/f/xlgqlgww"
+                method="POST"
+            >
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Namn
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        autocomplete="name"
+                        required
+                    >
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="email">
+                        E-postadress
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        required
+                    >
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="subject">
+                        Ämne
+                    </label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        required
+                    >
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Meddelande
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="7"
+                        required
+                    ></textarea>
+
+                </div>
+
+                <input
+                    type="hidden"
+                    name="_subject"
+                    value="Nytt meddelande från Rama Albakours portfolio"
+                >
+
+                <button type="submit" class="button">
+                    Skicka meddelande
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Rama Albakour</p>
+    </footer>
+
+</body>
+
+</html>
